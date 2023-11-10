@@ -1,0 +1,88 @@
+:root {
+    /* color variable */
+    /* primary color */
+    --darkblue-05: #091b6f;
+    --darkblue-04: #0d28a6;
+    --darkblue-03: #5e70c4;
+    --darkblue-02: #aeb7e1;
+    --darkblue-01: #cfd4ed;
+  
+    --limegreen-05: #3d7b3f;
+    --limegreen-04: #5cb85f;
+    --limegreen-03: #92d094;
+    --limegreen-02: #c9e7ca;
+    --limegreen-01: #def1df;
+  
+    /* allert color */
+    --allert-red: #fa2c5a;
+    --allert-yellow: #f9cc00;
+    --allert-green: #73ca5c;
+  
+    /* neutural color */
+    --neutural-05: #151515;
+    --neutural-04: #3c3c3c;
+    --neutural-03: #8a8a8a;
+    --neutural-02: #d0d0d0;
+    --neutural-01: #d0d0d0;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+
+  .btn-success {
+    background-color: var(--limegreen-04);
+    border-radius: 2px;
+    color: white !important;
+    padding: 8px 12px 8px 12px !important;
+    text-decoration: none;
+    border-style: none;
+  }
+
+  .bg-color-primary {
+    background-color: var(--darkblue-04);
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .container {
+      margin: 0px 10px 0px 0px !important;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .container {
+      margin: 0px 10px 0px 0px !important;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .container {
+      margin : 0px 56px 0px 56px !important
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 912px and up) */
+  @media only screen and (min-width: 912px) {
+    .container {
+      margin : 0px 136px 0px 136px !important
+    }
+    .col-our-service-1 {
+      margin-left: 136px !important;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1400px and up) */
+  @media only screen and (min-width: 1400px) {
+    .container {
+      margin : 0px 136px 0px 136px !important
+    }
+  }
